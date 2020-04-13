@@ -965,7 +965,6 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background: url("images/overlay.png");
 		}
 
 		.image img {
@@ -986,6 +985,11 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
+			margin: 0 2em 2em 0;
+		}
+
+		.image.right {
+			float: right;
 			margin: 0 2em 2em 0;
 		}
 
@@ -2254,8 +2258,10 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
+		background: url("images/overlay.png"), url("../../images/ny.jpg");
 		background-size: 256px 256px, cover;
+		/* background-size: 100%, 80% auto;
+		background-repeat: no-repeat; */
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
@@ -2263,7 +2269,16 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url("images/overlay.png"), url("../../images/ingredish.png");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+/* Three */
+
+	#three {
+		background: url("images/overlay.png"), url("../../images/vintage.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2310,3 +2325,9 @@ input, select, textarea {
 			}
 
 		}
+
+.static {
+	width: 700px;
+	height: auto;
+	float: left;
+}
