@@ -1163,10 +1163,10 @@ input, select, textarea {
 
 		}
 
-/* Icons */
-
-	ul.icons {
+		
 		cursor: default;
+		/* Icons */
+	ul.icons {
 	}
 
 		ul.icons li {
@@ -2326,8 +2326,10 @@ input, select, textarea {
 
 		}
 
-.static {
-	width: 700px;
-	height: auto;
-	float: left;
+		
+.links li {
+	display: inline-block;
+	padding: 15px;
+	font-size: 20px;
 }
+
