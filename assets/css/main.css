@@ -2255,6 +2255,12 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat;
 	}
 
+/* About */
+
+	#about {
+		background-color: whitesmoke;
+	}
+
 /* One */
 
 	#one {
@@ -2269,7 +2275,7 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/ingredish.png");
+		background: url("images/overlay.png"), url("../../images/ingredish.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2333,3 +2339,6 @@ input, select, textarea {
 	font-size: 20px;
 }
 
+.profile {
+	width: 70%;
+} 
