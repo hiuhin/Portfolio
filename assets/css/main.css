@@ -2342,3 +2342,9 @@ input, select, textarea {
 .profile {
 	width: 70%;
 } 
+
+#intro img {
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+}
